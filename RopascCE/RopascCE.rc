@@ -1,0 +1,252 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU_DE MENU DISCARDABLE 
+BEGIN
+    POPUP "&Spiel"
+    BEGIN
+        MENUITEM "&Neu",                        ID_GAME_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Stein",                      ID_GAME_ROCK
+        MENUITEM "&Papier",                     ID_GAME_PAPER
+        MENUITEM "S&chere",                     ID_GAME_SCISSORS
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_GAME_EXIT
+    END
+    POPUP "S&prache"
+    BEGIN
+        MENUITEM "&English",                    ID_LANGUAGE_ENGLISH
+        MENUITEM "&Deutsch",                    ID_LANGUAGE_GERMAN
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Spielanleitung",             ID_HELP_HOWTOPLAY
+        MENUITEM SEPARATOR
+        MENUITEM "Inf&o...",                    ID_HELP_ABOUT
+    END
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&New",                        ID_GAME_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Rock",                       ID_GAME_ROCK
+        MENUITEM "&Paper",                      ID_GAME_PAPER
+        MENUITEM "&Scissors",                   ID_GAME_SCISSORS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_GAME_EXIT
+    END
+    POPUP "&Language"
+    BEGIN
+        MENUITEM "&English",                    ID_LANGUAGE_ENGLISH
+        MENUITEM "&Deutsch",                    ID_LANGUAGE_GERMAN
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "How to &play?",               ID_HELP_HOWTOPLAY
+        MENUITEM SEPARATOR
+        MENUITEM "&About...",                   ID_HELP_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "100904e4"
+        BEGIN
+            VALUE "CompanyName", "PeCeT_full\0"
+            VALUE "FileDescription", "Ropasc CE\0"
+            VALUE "FileVersion", "1.0.0.0\0"
+            VALUE "InternalName", "RopascCE\0"
+            VALUE "LegalCopyright", "Copyright (C) PeCeT_full 2024\0"
+            VALUE "LegalTrademarks", "Some rights reserved\0"
+            VALUE "OriginalFilename", "RopascCE.exe\0"
+            VALUE "ProductName", "Ropasc CE\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x1009, 1252
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APPICON             ICON    DISCARDABLE     "res\\RopascCE.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MOVES               BITMAP  DISCARDABLE     "res\\moves.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_VICTORIES           "Victories: %d"
+    IDS_VICTORIES_DE        "Siege: %d"
+    IDS_LOSSES              "Losses: %d"
+    IDS_LOSSES_DE           "Verluste: %d"
+    IDS_DRAWS               "Draws: %d"
+    IDS_DRAWS_DE            "Untentschieden: %d"
+    IDS_PLAYERMOVE          "Player: %s"
+    IDS_PLAYERMOVE_DE       "Spieler: %s"
+    IDS_CPUMOVE             "CPU: %s"
+    IDS_CPUMOVE_DE          "CPU: %s"
+    IDS_ROCK                "Rock"
+    IDS_ROCK_DE             "Stein"
+    IDS_PAPER               "Paper"
+    IDS_PAPER_DE            "Papier"
+    IDS_SCISSORS            "Scissors"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCISSORS_DE         "Schere"
+    IDS_NOTHING             "Nothing"
+    IDS_NOTHING_DE          "Nichts"
+    IDS_CRITICAL_ERROR      "Critical error"
+    IDS_CRITICAL_ERROR_DE   "Kritischer Fehler"
+    IDS_GAME_OVER           "Game over"
+    IDS_GAME_OVER_DE        "Ende des Spiels"
+    IDS_UNEXPECTED_MOVE     "Unexpected move."
+    IDS_UNEXPECTED_MOVE_DE  "Unerwarteter Zug."
+    IDS_CONGRATULATIONS_100_TIMES 
+                            "Congratulations! You have won 100 times against the CPU."
+    IDS_CONGRATULATIONS_100_TIMES_DE 
+                            "Herzlichen Glückwunsch! Sie haben 100 mal gegen die CPU gewonnen."
+    IDS_DEFEAT_100_TIMES    "What a shame! You have been beaten by the CPU 100 times."
+    IDS_DEFEAT_100_TIMES_DE "Wie Schade! Sie haben 100 mal gegen die CPU verloren."
+    IDS_ABOUT_PROGRAM_TITLE "About Ropasc CE"
+    IDS_ABOUT_PROGRAM_TITLE_DE "Über Ropasc CE"
+    IDS_ABOUT_PROGRAM       "Ropasc CE 1.0\r\nCopyright (C) PeCeT_full 2024 <me@pecetfull.pl>\r\n\r\nBuild date: %s, %s\r\n\r\nLicence: WTFPL\r\nWebsite: http://www.pecetfull.pl\r\n\r\nFor more information, please refer to Readme.txt and Licence.txt included with the application."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUT_PROGRAM_DE    "Ropasc CE 1.0\r\nCopyright (C) PeCeT_full 2024 <me@pecetfull.pl>\r\n\r\nBuild-Datum: %s, %s\r\n\r\nLizenz: WTFPL\r\nWebseite: http://www.pecetfull.pl/de\r\n\r\nWeitere Angaben hierzu finden Sie unter Readme.txt und Licence.txt in der Anwendung enthalten."
+    IDS_HOW_TO_PLAY_TITLE   "How to play?"
+    IDS_HOW_TO_PLAY_TITLE_DE "Spielanleitung"
+    IDS_HOW_TO_PLAY         "Ropasc CE is based on a game called ""rock paper scissors"" but you play against the computer here. When you perform a move then the computer's move is revealed immediately. You can use one of the three items: rock, paper or scissors. Rock beats scissors, paper beats rock and scissors beats paper. If both the player and the computer use the same item, the round ends with a draw."
+    IDS_HOW_TO_PLAY_DE      "Ropasc CE basiert auf dem Spiel ""Schere, Stein, Papier"", aber Sie spielen hier gegen den Computer. Wenn Sie einen Zug ausführen, wird der Zug des Computers sofort enthüllt. Sie können einen der drei Gegenstände verwenden: Stein, Papier oder Schere. Stein ist besser als Schere, Papier ist besser als Stein und Schere ist besser als Papier. Wenn sowohl der Spieler als auch der Computer den gleichen Gegenstand verwenden, endet die Runde unentschieden."
+END
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
