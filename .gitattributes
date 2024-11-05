@@ -4,6 +4,7 @@
 *.dsp text eol=crlf
 *.dsw text eol=crlf
 *.h text eol=crlf
+*.rc text eol=crlf
 *.txt text eol=crlf
 
 *.bmp binary
