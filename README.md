@@ -27,3 +27,7 @@ Ropasc CE is published under Do What The Fuck You Want To Public License (WTFPL)
 ### Screenshots ###
 
 <img width="480" height="240" alt="Ropasc CE on Windows CE 1.0" src="https://github.com/user-attachments/assets/03680d54-1b04-41dd-8ac6-1173e17f4261" />
+
+### Videos ###
+
+[![Ropasc CE — Demonstration on Windows CE 1.0](https://img.youtube.com/vi/q80Uzlmutx8/0.jpg)](https://www.youtube.com/watch?v=q80Uzlmutx8)
