@@ -23,3 +23,7 @@ Visual C++ for Windows CE
 ### Program licence ###
 
 Ropasc CE is published under Do What The Fuck You Want To Public License (WTFPL). Please refer to the LICENSE.txt file of this repository for more information regarding it.
+
+### Screenshots ###
+
+<img width="480" height="240" alt="Ropasc CE on Windows CE 1.0" src="https://github.com/user-attachments/assets/03680d54-1b04-41dd-8ac6-1173e17f4261" />
